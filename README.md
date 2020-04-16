@@ -5,4 +5,4 @@ An online portal for the ones who are in need of a moral help. A place where one
 
 
 
-By: Gunjan Purwar
+By: Gunjan Purwar & Sivin
