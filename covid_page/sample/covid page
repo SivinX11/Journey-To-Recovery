@@ -1,1 +1,5 @@
 dbcon.php is the database file for contact form.
+Open wammp and start the apache and mysql 
+- type localhost/phpmyadmin/
+- find the database with table name coronacase
+- all the entered messages will be fetched in the database from contact form.
