@@ -5,4 +5,6 @@ Open wammp and start the apache and mysql
 - all the entered messages will be fetched in the database from contact form.
 
 
-API used is "https://api.covid19api.com/summary"
+API used for World Updates "https://api.covid19api.com/summary"
+
+API used for India's States "https://api.covid19india.org/data.json"
