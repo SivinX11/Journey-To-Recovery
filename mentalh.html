@@ -9,30 +9,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-	<script   type="text/javascript" src="jquery.js"></script>
+  <script   type="text/javascript" src="jquery.js"></script>
 
         
           <script src="jquery-ui/jquery-ui.js"></script>
         
       <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
-	
-	<style type="text/css">
-	  
+  
+  <style type="text/css">
+    
 
-	  .container-fluid{
-	  width:1300px;
-	  height:1000px;
-	  margin-top:20px;
-	  margin-left:20px;
-	  margin-right:20px;
-	  margin-bottom:20px;
-	  background-color:white;
-	  }
-	  .p-4
-	  {
-	  float:right;
-	  }
-	  .container {
+    .container-fluid{
+    width:1300px;
+    height:1000px;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    background-color:white;
+    }
+    .p-4
+    {
+    float:right;
+    }
+    .container {
   margin-top: 30px; /* Added */
   float: right; /* Added */
   margin-bottom: 10px; /* Added */
@@ -52,14 +52,14 @@ margin-top=0;
 height:360px;
 }
 
-	  
-	  		</style>
+    
+        </style>
   </head>
   <body>
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	 <a class="navbar-brand" href="#">
-	   <img src="sunset.jpg"   class="logo">
-	 </a>
+   <a class="navbar-brand" href="#">
+     <img src="sunset.jpg"   class="logo">
+   </a>
   <a class="navbar-brand" href="#">Home</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -106,9 +106,9 @@ height:360px;
   
   
 <div class="container-fluid">
-    
-	<div class="container">
-	<div class="card mb-3 bg-danger" >
+  <!--  
+  <div class="container">
+  <div class="card mb-3 bg-danger" >
   <div class="row no-gutters">
     <div class="col-md-4">
       <img  id="pic1" src="https://i.ytimg.com/vi/pK0RBWixPNE/maxresdefault.jpg" class="card-img" alt="...">
@@ -126,10 +126,90 @@ India has one of the world’s highest suicide rates for youth aged 15 to 29, ac
   </div>
 </div>
 </div>
+-->
+  <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  
+  width: 100%;
+  height: 100%;
+  
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #3541e8;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  padding: 4px;
+  text-align: left;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<h1>Card Flip with Text</h1>
+<h3>Hover over the image below:</h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="https://i.ytimg.com/vi/pK0RBWixPNE/maxresdefault.jpg" alt="Avatar" style="width:400px;height:400px;">
+      <h1> Know The Reality </h1>
+      <!--<button class="btn info">Info</button> -->
+    </div>
+    <div class="flip-card-back">
+      <p>We always talk about being cheerful and lively in life. When was the last time you had looked in the mirror and asked yourself whether you are really happy and satisfied with what you are doing in life? If you haven’t tried it, you might want to try it now. We expect the youth to be the future backbone of this country. However, judging by statistics of mental health, the future seems extremely blurred.
+India has one of the world’s highest suicide rates for youth aged 15 to 29, according to a 2012 Lancet report. Every hour, one student commits suicide in India, according to 2015 data (the latest available) from the National Crime Records Bureau (NCRB). Youngsters find it difficult to cope with failure in examinations and careers. Neither families nor other social institutions offer adequate support or solace. Its many commercial coaching centres, that guarantee success in professional entrance exams, pressure students into striving for unrealistic goals. Unable to cope with failure and anxious about letting their family down, a growing number of students opt to end their lives.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
 
 
 <div class="container2">
-	<div class="card mb-3 bg-success" >
+  <div class="card mb-3 bg-success" >
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="https://www.contactmonkey.com/cm_wp/wp-content/uploads/2018/10/mental-health.gif" class="card-img" alt="...">
@@ -139,20 +219,20 @@ India has one of the world’s highest suicide rates for youth aged 15 to 29, ac
         <h5 class="card-title">Signs And Symptoms</h5>
         <p class="card-text">
         <ul>
-	<li>Excessive worrying or fear</li>
-	<li>Feeling excessively sad or low</li>
-	<li>Confused thinking or problems concentrating and learning</li>
-	<li>Extreme mood changes, including uncontrollable &ldquo;highs&rdquo; or feelings of euphoria</li>
-	<li>Prolonged or strong feelings of irritability or anger</li>
-	<li>Avoiding friends and social activities</li>
-	<li>Difficulties understanding or relating to other people</li>
-	<li>Changes in sleeping habits or feeling tired and low energy</li>
-	<li>Changes in eating habits such as increased hunger or lack of appetite</li>
-	<li>Changes in sex drive</li>
-	<li>Difficulty perceiving reality (delusions or hallucinations, in which a person experiences and senses things that don&#39;t exist in objective reality)</li>
-	<li>Inability to perceive changes in one&rsquo;s own feelings, behavior or personality (&rdquo;lack of insight&rdquo; or anosognosia)</li>
-	<li>Abuse of substances like alcohol or drugs</li>
-	
+  <li>Excessive worrying or fear</li>
+  <li>Feeling excessively sad or low</li>
+  <li>Confused thinking or problems concentrating and learning</li>
+  <li>Extreme mood changes, including uncontrollable &ldquo;highs&rdquo; or feelings of euphoria</li>
+  <li>Prolonged or strong feelings of irritability or anger</li>
+  <li>Avoiding friends and social activities</li>
+  <li>Difficulties understanding or relating to other people</li>
+  <li>Changes in sleeping habits or feeling tired and low energy</li>
+  <li>Changes in eating habits such as increased hunger or lack of appetite</li>
+  <li>Changes in sex drive</li>
+  <li>Difficulty perceiving reality (delusions or hallucinations, in which a person experiences and senses things that don&#39;t exist in objective reality)</li>
+  <li>Inability to perceive changes in one&rsquo;s own feelings, behavior or personality (&rdquo;lack of insight&rdquo; or anosognosia)</li>
+  <li>Abuse of substances like alcohol or drugs</li>
+  
 </ul>
 </p>
       </div>
@@ -162,7 +242,7 @@ India has one of the world’s highest suicide rates for youth aged 15 to 29, ac
 </div>
 
 <div class="container">
-	<div class="card mb-3 bg-secondary" >
+  <div class="card mb-3 bg-secondary" >
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="https://d2sslp958cft0.cloudfront.net/wp-content/uploads/2017/10/18141244/Kopf.gif" class="card-img" alt="...">
@@ -171,7 +251,7 @@ India has one of the world’s highest suicide rates for youth aged 15 to 29, ac
       <div class="card-body">
         <h5 class="card-title">Race Between Mind And Body!</h5>
         <p class="card-text">Mental health affects one overall development . 
-		From careers and finances to personal relationships, mental illnesses like PTSD, bipolar disorder and depression can negatively impact every single aspect of life; for people suffering from poor mental health, it can feel like their whole lives are governed by their psychological well-being or lack thereof.</p>
+    From careers and finances to personal relationships, mental illnesses like PTSD, bipolar disorder and depression can negatively impact every single aspect of life; for people suffering from poor mental health, it can feel like their whole lives are governed by their psychological well-being or lack thereof.</p>
         
       </div>
     </div>
@@ -180,7 +260,7 @@ India has one of the world’s highest suicide rates for youth aged 15 to 29, ac
 </div>
 
 <div class="container2">
-	<div class="card mb-3  bg-primary" >
+  <div class="card mb-3  bg-primary" >
   <div class="row no-gutters">
     <div class="col-md-4">
       <img src="https://networkinaging.org/wp-content/uploads/2019/03/Road-sign-mental-health.jpg" class="card-img" alt="...">
@@ -200,17 +280,16 @@ Today, new philosophies focus on strengths and abilities, rather than on weaknes
 
 </div>
   <script type="text/javascript">
-		   
-		  
+       
+      
            
-		   </script>
-	
-	
-	
-	
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+       </script>
+  
+  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   </body>
 </html>
-  
